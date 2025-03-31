@@ -5,7 +5,7 @@ public class WateringDispenser {
     // 어느 곳이든 접근이 가능하므로 drinkWater 메서드 영역에서도 사용 가능
 
     void drinkWater(int amount) {
-        // 지역 변수와 같은 개념
+        /// 지역 변수와 같은 개념
         // sharedWater 지역 변수는 해당 지역 영역 안에서만 사용 가능하다.
         sharedWater = sharedWater - amount;
     }
