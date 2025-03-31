@@ -7,7 +7,7 @@ public class MyClass {
     static int b=2;//전역변수*/
 
     static void methodOne(){
-         int c=3;
+         int c=3;//지역변수
          System.out.println(c);
 
      }
@@ -16,7 +16,6 @@ public class MyClass {
     public static void main(String[] args) {
 
         MyClass.methodOne();
-
 
     }
 //메모리 누수가 심해서 버퍼링하는데 시간이 더 걸린다거나 하는 문제점
