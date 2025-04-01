@@ -20,8 +20,16 @@ public class Main {
 
         Dog2 dog2 = new Dog2();
         dog2.sound2();
-        dog2.sleep();  //추상클래스
+        dog2.sleep();
 
+
+        //추상 클래스 Animal**은 직접 new Animal()으로 객체를 만들 수 없습니다.
+        //하지만 Dog 클래스는 **Animal**을 상속받은 구체적인 클래스이기 때문에 new Dog()로 객체를 만들 수 있습니다.
+
+
+        //인터페이스 Animal**은 직접 new Animal()으로 객체를 만들 수 없습니다.
+
+      //하지만 Dog 클래스는 Animal 인터페이스를 구현했기 때문에 new Dog()로 객체를 만들 수 있습니다.
 
 
     }
